@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>COSE</h1>
-    <a href="{{url('/')}}">HOME</a>
+    <a href="{{route('home')}}">HOME</a>
     
 </body>
 </html>

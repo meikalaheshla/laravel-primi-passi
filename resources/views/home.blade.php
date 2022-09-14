@@ -11,13 +11,13 @@
         <h1>{{$hello}}</h1>
         <ul>
             <li>
-                <a href="{{url('/contatti')}}">CONTATTI</a>
+                <a href="{{route('contatti')}}">CONTATTI</a>
             </li>
             <li>
-                <a href="{{url('/cose')}}">COSE</a>
+                <a href="{{route('cose')}}">COSE</a>
             </li>
             <li>
-                <a href="{{url('/info')}}">INFO</a>
+                <a href="{{route('info')}}">INFO</a>
             </li>
             
         </ul>

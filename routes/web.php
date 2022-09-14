@@ -16,13 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $data =['hello' => 'Hello world']; // IL SECONDO PARAMERTO DEVE ESSERE UN ARRAY ASSOCIATIVO 
     return view('home', $data );
-});
+})-> name('home');  
 Route::get('/contatti', function () {
     return view('/contatti.contatti');
-});
+})-> name('contatti');
 Route::get('/cose', function () {
     return view('/cose.cose');
-});
+})-> name('cose');
 Route::get('/info', function () {
     return view('/info.info');
-});
+})-> name('info');
