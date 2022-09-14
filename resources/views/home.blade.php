@@ -11,10 +11,18 @@
         <h1>{{$hello}}</h1>
         <ul>
             <li>
-
+                <a href="{{url('/contatti')}}">CONTATTI</a>
             </li>
+            <li>
+                <a href="{{url('/cose')}}">COSE</a>
+            </li>
+            <li>
+                <a href="{{url('/info')}}">INFO</a>
+            </li>
+            
         </ul>
     </header>
+                
     
     
 </body>

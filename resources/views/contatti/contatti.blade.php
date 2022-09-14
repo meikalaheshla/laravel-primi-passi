@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>CONTATTI</h1>
+    <a href="{{url('/')}}">HOME</a>
     
 </body>
 </html>

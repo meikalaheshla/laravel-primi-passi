@@ -14,15 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $data =['hello' => 'Hello world'];
+    $data =['hello' => 'Hello world']; // IL SECONDO PARAMERTO DEVE ESSERE UN ARRAY ASSOCIATIVO 
     return view('home', $data );
 });
 Route::get('/contatti', function () {
-    return view('contatti');
+    return view('/contatti.contatti');
 });
 Route::get('/cose', function () {
-    return view('cose');
+    return view('/cose.cose');
 });
 Route::get('/info', function () {
-    return view('info');
+    return view('/info.info');
 });
