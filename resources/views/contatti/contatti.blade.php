@@ -7,15 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>{{$hello}}</h1>
-        <ul>
-            <li>
-
-            </li>
-        </ul>
-    </header>
-    
     
 </body>
 </html>
